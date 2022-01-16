@@ -1,0 +1,9 @@
+.place {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 47%));
+    grid-template-rows: repeat(2, auto);
+    gap: 48px 40px;
+}

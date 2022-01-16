@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 28px 24px 0 24px;
+    }
+    .lead {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .intro {
+        max-width: 720px;
+        padding: 88px 0 88px 24px ;
+    }
+    .photo-grid {
+        padding: 0 24px 88px 24px;
+        gap: 16px;
+    }
+    .places {
+        padding-left: 24px;
+        padding-right: 24px;
+        gap: 48px 28px;
+    }
+    .place {
+        padding-bottom: 73px;
+    }
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .cover {
+        height: 480px;
+    }
+
+    .footer {
+        padding: 88px 24px 24px 24px;
+    }
+}

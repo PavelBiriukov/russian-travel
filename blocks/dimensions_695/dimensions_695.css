@@ -1,0 +1,28 @@
+@media screen and (max-width: 695px) {
+    .header__lang-link {
+
+        margin-right: 10px;
+    }
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .place {
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
+    }
+    .cover__title { 
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 64px 0 24px 16px;
+    }
+    .footer__link {
+        display: block;
+        margin-bottom: 32px;
+    }
+    .footer__link:nth-child(5) {
+        margin-bottom: 48px;
+    }
+}

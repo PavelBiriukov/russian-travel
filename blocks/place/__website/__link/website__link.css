@@ -1,0 +1,15 @@
+.website__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin: 0;
+    transition-duration: .5s;
+    opacity: 1;
+}
+
+.website__link:hover {
+    opacity: 0.8;
+}

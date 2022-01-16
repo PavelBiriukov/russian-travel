@@ -1,0 +1,8 @@
+.lead {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 148px;
+    padding-right: 148px; 
+}
