@@ -18,3 +18,11 @@
     font-family: 'Inter';
     font-weight: 600;
 } 
+
+@font-face {
+    src: url(./Inter-Black.woff) format('woff'),
+         url(./Inter-Black.woff2) format('woff2'),
+         url(./Inter-Black.ttf) format('truetype');
+    font-family: 'Inter';
+    font-weight: 900;
+} 
