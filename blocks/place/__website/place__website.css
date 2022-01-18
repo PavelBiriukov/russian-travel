@@ -4,3 +4,10 @@
     height: auto;
     margin-top: auto;
 }
+@media screen and (max-width: 320px) {
+    .place__website {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        margin-left: 16px;
+    }
+}

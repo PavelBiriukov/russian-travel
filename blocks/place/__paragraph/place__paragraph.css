@@ -9,3 +9,9 @@
 .place__paragraph:last-child{
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        margin-left: 16px;
+    }
+}

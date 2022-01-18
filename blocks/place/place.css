@@ -7,3 +7,18 @@
     grid-template-rows: repeat(2, auto);
     gap: 48px 40px;
 }
+@media screen and (max-width: 768px) {
+    .place {
+        padding-bottom: 73px;
+    }
+}
+@media screen and (max-width: 695px) {
+    .place {
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
+    }
+}
+@media screen and (max-width: 320px) {
+    .place {
+        padding-bottom: 50px;
+    }
+}
