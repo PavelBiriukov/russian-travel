@@ -5,10 +5,6 @@
     margin: 0 auto;
     text-align: center;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background: center url(../../sprint-3-images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;

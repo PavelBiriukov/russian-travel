@@ -10,15 +10,18 @@
 @media screen and (max-width: 768px) {
     .place {
         padding-bottom: 73px;
+        gap: 48px 32px;
     }
 }
 @media screen and (max-width: 695px) {
     .place {
+        gap: 48px 28px;
         grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
     }
 }
 @media screen and (max-width: 320px) {
     .place {
         padding-bottom: 50px;
+        gap: 32px 0;
     }
 }
