@@ -1,4 +1,4 @@
-.nav__link {
+.footer__link {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -12,28 +12,28 @@
     margin-right: 18px;
 }
 
-.nav__link:hover {
+.footer__link:hover {
     opacity: 0.8;
 }
 
-.nav__link:nth-child(5) {
+.footer__link:nth-child(5) {
     margin-right: 0;
 }
 @media screen and (max-width: 695px) {
-    .nav__link {
+    .footer__link {
         display: block;
         margin-bottom: 32px;
     }
-    .nav__link:nth-child(5) {
+    .footer__link:nth-child(5) {
         margin-bottom: 48px;
     }
 }
 @media screen and (max-width: 320px) {
-    .nav__link {
+    .footer__link {
         display: block;
         margin-bottom: 32px;
     }
-    .nav__link:nth-child(5) {
+    .footer__link:nth-child(5) {
         margin-bottom: 48px;
     }
 }
