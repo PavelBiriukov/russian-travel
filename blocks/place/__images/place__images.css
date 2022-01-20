@@ -9,6 +9,5 @@
 @media screen and (max-width: 320px) {
     .place__images {
         grid-row-start: 3;
-        grid-column-start: 1;
     }
 }
